@@ -4,7 +4,7 @@
   "description": "Evaluates writing novelty, importance, correctness, and strength. Based on Paul Graham's How to Write Usefully https://paulgraham.com/useful.html",
   "main": "useful.mjs",
   "scripts": {
-    "test": "test"
+    "test": "node test/index.mjs"
   },
   "repository": {
     "type": "git",
