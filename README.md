@@ -15,7 +15,7 @@ overall: 69%
 ```
 This analysis costs considerably less than a US penny on 15 April 2024.
 
-The scores are multiplied to calculate the overall score, making Useful Writing (UW) a very harsh critic. This is intentional. UW is not meant to please the writer, but rather to spur her on.
+The scores are multiplied to calculate the overall score, which is calculated by diving this product by the maximum possible score, making Useful Writing (UW) a very harsh critic. This is intentional. UW is not meant to please the writer, but rather to spur her on.
 
 ## Requirements
 - `Node`. I developed this on `v18.19.0`, and that's as close as we're going to get to a version requirement. Download here https://nodejs.org/en
