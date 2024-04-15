@@ -2,7 +2,7 @@
   "name": "useful-writing",
   "version": "0.0.1",
   "description": "Evaluates writing novelty, importance, correctness, and strength. Based on Paul Graham's How to Write Usefully https://paulgraham.com/useful.html",
-  "main": "useful.js",
+  "main": "useful.mjs",
   "scripts": {
     "test": "test"
   },
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/jonathanhawleypeters/useful-writing/issues"
   },
-  "homepage": "https://github.com/jonathanhawleypeters/useful-writing#readme"
+  "homepage": "https://github.com/jonathanhawleypeters/useful-writing#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.4",
+    "axios": "^1.6.8"
+  }
 }
