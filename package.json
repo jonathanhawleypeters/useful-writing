@@ -1,0 +1,24 @@
+{
+  "name": "useful-writing",
+  "version": "0.0.1",
+  "description": "Evaluates writing novelty, importance, correctness, and strength. Based on Paul Graham's How to Write Usefully https://paulgraham.com/useful.html",
+  "main": "useful.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanhawleypeters/useful-writing.git"
+  },
+  "keywords": [
+    "LLM",
+    "text classification",
+    "Node"
+  ],
+  "author": "Jonathan Hawley-Peters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanhawleypeters/useful-writing/issues"
+  },
+  "homepage": "https://github.com/jonathanhawleypeters/useful-writing#readme"
+}
