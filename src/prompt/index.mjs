@@ -1,10 +1,17 @@
 // prompt is specific to Anthropic Claude's XML function calling capabilities
-export const withPrompt = text => `Usefulness of writing represented in XML by four number properties (0 to 9)
+export const withPrompt = text => `Writing:
+${text}
+
+---
+
+We're going to judge the usefulness of writing using four number properties (0 to 9)
 
 novel
 important
 correct
 strong
+
+The result will be formated in XML, as follows:
 
 Example 1:
 <novel>7</novel>
@@ -24,7 +31,4 @@ Example 3:
 <correct>5</correct>
 <strong>9</strong>
 
-Rate the following useing the format.
-
-Writing:
-${text}`
+Rate the writing using the format.`

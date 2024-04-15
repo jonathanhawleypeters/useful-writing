@@ -7,6 +7,12 @@ import { argv } from 'process';
 import { withPrompt } from './src/prompt/index.mjs';
 import { formattedRatings } from './src/response/index.mjs';
 
+// Model options, from most to least powerful and expensive:
+// claude-3-opus-20240229
+// claude-3-sonnet-20240229
+// claude-3-haiku-20240307
+const model = 'claude-3-haiku-20240307'
+
 const usage = `Usage:
 <text> specify text directly, e.g. node useful.mjs "your text" 
 --test run useful's tests. ignores other arguments. you may view the example files in tests/
@@ -80,7 +86,7 @@ async function main(text) {
   const message = await anthropic.messages.create({
     max_tokens: 1024,
     messages: [{ role: 'user', content }],
-    model: 'claude-3-haiku-20240307',
+    model,
   }).catch(async (err) => {
     if (err instanceof Anthropic.APIError) {
       console.log(err.status); // 400
