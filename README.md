@@ -17,8 +17,13 @@ This analysis costs considerably less than a US penny on 15 April 2024.
 
 The scores are multiplied to calculate the overall score, making Useful Writing (UW) a very harsh critic. This is intentional. UW is not meant to please the writer, but rather to spur her on.
 
-## Setup
+## Requirements
+- `Node`. I developed this on `v18.19.0`, and that's as close as we're going to get to a version requirement. Download here https://nodejs.org/en
+- `npm`, which comes bundled with `Node` by default.
+- `git` Download here https://git-scm.com/downloads
+- An Anthropic API key, which you can get at https://www.anthropic.com/api.
 
+## Setup
 ```bash
 git clone git@github.com:jonathanhawleypeters/useful-writing.git
 cd useful-writing
